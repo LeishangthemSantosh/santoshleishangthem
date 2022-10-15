@@ -10,6 +10,7 @@ const bar = document.querySelector('.loading__innerbar');
 const counter_num = document.querySelector('.loading__counter--number');
 let c = 0;
 
+
 // document.querySelector('.loading__img').getAttribute('src') = loader;
 
 let barInterval = setInterval(() => {
@@ -49,4 +50,3 @@ let barInterval = setInterval(() => {
         });
     }
 }, 20);
-
