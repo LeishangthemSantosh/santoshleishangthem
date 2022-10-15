@@ -5,7 +5,8 @@ import javascriptLogo from './javascript.svg'
 
 document.querySelector('#app').innerHTML = `
   <div class="container-fluid">
-    <header>Brainy Minai</header>
+    <header>Brainy, Josua, Dipson, Jodraj</header>
+    <p>Nupi fajaba amta sembiyo<p>
   </div>
 `
   
