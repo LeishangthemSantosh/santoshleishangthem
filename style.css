@@ -1,0 +1,28 @@
+:root {
+  --header-font: 'Varela Round', sans-serif;
+  --body-font: ;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body {
+  overflow-x: hidden;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.head-main {
+  font-family: var(--header-font);
+  font-size: 30px;
+}
+button, input, textarea, section {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+img, video, canvas, svg {
+  max-width: 100%;
+}
