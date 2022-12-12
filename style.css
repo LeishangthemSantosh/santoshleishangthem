@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
 :root {
   --header-font: 'Varela Round', sans-serif;
-  --body-font: ;
+  --body-font: 'Montserrat', sans-serif;
 }
 * {
   margin: 0;
@@ -10,11 +12,12 @@ html,body {
   overflow-x: hidden;
 }
 body {
+  font-family: var(--header-font);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 .head-main {
-  font-family: var(--header-font);
+  font-family: var(--body-font);
   font-size: 30px;
 }
 button, input, textarea, section {
@@ -25,4 +28,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 img, video, canvas, svg {
   max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
 }

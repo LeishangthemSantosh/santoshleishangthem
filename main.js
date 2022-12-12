@@ -1,17 +1,18 @@
 import gsap from 'gsap';
 import './style.css'
-import './loader.css'
+import './public/assets/loader.css'
+import './public/assets/landing.css'
 import 'bootstrap'
-import loader from './public/loader12.svg'
 import javascriptLogo from './javascript.svg'
 // import { barInterval } from './counter.js';
+
+
+
+
 
 const bar = document.querySelector('.loading__innerbar');
 const counter_num = document.querySelector('.loading__counter--number');
 let c = 0;
-
-
-// document.querySelector('.loading__img').getAttribute('src') = loader;
 
 let barInterval = setInterval(() => {
     bar.style.width = c + "%";
